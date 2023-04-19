@@ -2,11 +2,6 @@ import SockJS from 'sockjs-client'
 import Stomp from 'stompjs'
 import { homeUrl } from '../Url'
 class WebSocketService1 {
-  // constructor(onMessageReceived) {
-  //   this.stompClient = null
-  //   this.connected = false
-  //   this.onMessageReceived = onMessageReceived;
-  // }
   constructor(onMessageReceived) {
     this.stompClient = null
     this.connected = false
@@ -21,9 +16,6 @@ class WebSocketService1 {
 
   async connect(id) {
     const socket = new SockJS(homeUrl + '/entry/peerjs', null, {
-      transports: ['websocket'],
-      secure: true,
-      rejectUnauthorized: false // Only use this if you have a self-signed certificate
     })
 
     this.stompClient = Stomp.over(socket)

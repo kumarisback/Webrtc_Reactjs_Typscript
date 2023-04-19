@@ -58,14 +58,15 @@
 }
 
 .windowBox{
-  height: 250px;
+  position: relative;
+  width: 500px;
+  height: 300px;
   overflow-y: auto;
   text-align: center ;
-  width: 100%;
-  display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(45deg, #d6f5dbc7, #0da8e3b5);
   box-shadow: 10px 10px 10px beige;
   border-radius: 50px;
+
 }

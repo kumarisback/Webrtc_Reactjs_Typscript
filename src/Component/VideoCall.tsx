@@ -101,19 +101,19 @@
 //     useEffect(() => {
 //         async function fetchData() {
 //             try {
-//                 if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-//                     localStream.current = await navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-//                     if (localStream && localRef.current) {
-//                         localRef.current.srcObject = localStream.current
-//                     }
-//                     peerConnection.current = new RTCPeerConnection(configuration)
-//                     for (const track of localStream.current.getTracks()) {
-//                         peerConnection.current.addTrack(track, localStream.current);
-//                     }
-//                 } else {
-//                     console.log(navigator);
+//                 // if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+//                 //     localStream.current = await navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+//                 //     if (localStream && localRef.current) {
+//                 //         localRef.current.srcObject = localStream.current
+//                 //     }
+//                 //     peerConnection.current = new RTCPeerConnection(configuration)
+//                 //     for (const track of localStream.current.getTracks()) {
+//                 //         peerConnection.current.addTrack(track, localStream.current);
+//                 //     }
+//                 // } else {
+//                 //     console.log(navigator);
 
-//                 }
+//                 // }
 
 //                 // peerConnection.current.addEventListener('icecandidate', (event: RTCPeerConnectionIceEvent) => {
 //                 //     if (event.candidate) {
@@ -250,9 +250,9 @@
 //                 </div>
 
 //             </div>
-//             <video ref={localRef} autoPlay muted={true} >video</video>
-//             <video ref={remoteRef} autoPlay >video</video>
-//             <Chat userMessages={messages} name={name.UserName} />
+//             {/* <video ref={localRef} autoPlay muted={true} >video</video>
+//             <video ref={remoteRef} autoPlay >video</video> */}
+//             <Chat userMessages={messages} name={name.UserName} hide={false} />
 
 //         </>
 //     )

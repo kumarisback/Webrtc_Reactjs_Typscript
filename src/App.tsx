@@ -2,15 +2,17 @@ import React from 'react'
 import './App.css'
 // import VideoCall from './Component/VideoCall'
 // import Socket from './Component/Socket'
-import Socket1 from './Component/Socket1'
-// import VideoChat from './Component/VideoChat'
+import ScreenShare from './Component/ScreenShare'
 
 const App: React.FC = () => {
+
   return (
     <div className="App">
-      {/* <Socket /> */}
-      <Socket1 />
-      {/* <VideoCall /> */}
+      {/* <Socket />      socket only use case */}
+      {/* <Socket1 />   video call with socket but no css styling  */}
+      <ScreenShare />
+      {/* <VideoCall />  direact call on message send with only connect to two people no group or other use case */}
+      {/* <VideoChat />    no use  */}
 
     </div>
   )
