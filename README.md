@@ -1,5 +1,5 @@
 ## Description
-This is frontend repo for backend Setup please the repo link 
+This is frontend repo for backend Setup please use this repo link 
 https://github.com/kumarisback/sockit_java
 
 
