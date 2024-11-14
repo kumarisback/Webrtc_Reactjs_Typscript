@@ -1,7 +1,11 @@
 ## Description
-A brief description of what your project does and its purpose.
+This is frontend repo for backend Setup please the repo link 
+https://github.com/kumarisback/sockit_java
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+
+clone it 
+cd into repo 
+run npm i 
+Run -> npm run start
+
+
