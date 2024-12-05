@@ -8,6 +8,6 @@ https://github.com/kumarisback/sockit_java
 ### run npm i 
 ### Run -> npm run start
 
-![Alt Text](output/Screenshot (19).png)
+![Alt Text](output/img.png)
 
 
